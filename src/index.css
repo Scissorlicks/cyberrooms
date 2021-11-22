@@ -9,11 +9,11 @@ body {
 }
 
 h1 {
-	@apply text-6xl font-bold uppercase mb-5 tracking-wider;
+	@apply md:text-6xl text-4xl font-bold uppercase mb-5 tracking-wider;
 }
 
 h2 {
-	@apply text-4xl uppercase font-semibold mb-4 tracking-wider;
+	@apply md:text-4xl  text-2xl uppercase font-semibold mb-4 tracking-wider;
 }
 
 h3 {

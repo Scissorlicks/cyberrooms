@@ -21,8 +21,8 @@ function App() {
 					</p>
 				</Header>
 
-				<div className="grid grid-cols-3 auto-rows-auto h-screen">
-					<div className="flex justify-center items-center col-span-2 col-end-3 row-start-1">
+				<div className="grid lg:grid-cols-3 lg:auto-rows-auto lg:h-screen my-36 gap-5 lg:gap-0">
+					<div className="flex justify-center items-center lg:col-span-2 lg:col-end-3 lg:row-start-1">
 						<ContentBlock title="About Cyber Rooms">
 							<p>
 								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -41,7 +41,7 @@ function App() {
 							</p>
 						</ContentBlock>
 					</div>
-					<div className="flex justify-center items-center  col-span-2 col-start-2 row-start-1 flex-col">
+					<div className="flex justify-center items-center col-span-1 lg:col-span-2 lg:col-start-2 lg:row-start-1 row-start-2 flex-col">
 						<img src={room} alt="" />
 						<h1 className="absolute">ANIMATED GIF</h1>
 					</div>

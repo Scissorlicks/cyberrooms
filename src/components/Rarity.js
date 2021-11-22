@@ -15,7 +15,7 @@ function RarityCol({ children }) {
 export default function Rarity(props) {
 	return (
 		<>
-			<div className="grid md:grid-cols-4 grid-cols-1 auto-rows-auto md:h-screen">
+			<div className="grid lg:grid-cols-4 grid-cols-1 auto-rows-auto lg:h-screen">
 				<RarityCol>
 					<RarityTile title="Title">
 						<p>
@@ -32,7 +32,7 @@ export default function Rarity(props) {
 						</p>
 					</RarityTile>
 				</RarityCol>
-				<div className="md:col-span-2 md:col-start-2 h-1/2 my-auto row-start-1 col-span-1">
+				<div className="lg:col-span-2 lg:col-start-2 lg:h-1/2 h-[50vh] lg:my-auto mb-28 row-start-1 col-span-1">
 					<h2 className="text-center">{props.title}</h2>
 					<View3D />
 				</div>

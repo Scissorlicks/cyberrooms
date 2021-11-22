@@ -18,9 +18,9 @@ function TeamMember({ children, name, img, position }) {
 
 export default function Team() {
 	return (
-		<div className="my-36 md:my-0 md:h-screen flex justify-center items-center flex-col">
+		<div className="my-36 md:my-0 lg:h-screen flex justify-center items-center flex-col">
 			<h2 className="text-center mb-10">The Team</h2>
-			<div className="grid md:grid-cols-3 gap-10 auto-rows-auto w-3/4">
+			<div className="grid lg:grid-cols-3 gap-10 auto-rows-auto md:w-3/4 w-full">
 				<TeamMember name="Name" position="Lead"></TeamMember>
 
 				<TeamMember name="Name" position="Lead"></TeamMember>

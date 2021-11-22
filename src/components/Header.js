@@ -8,7 +8,7 @@ export default function Header({ children, title }) {
 				<img
 					src={firstRoom}
 					alt="Cyber Rooms 3D NFT"
-					className="filter drop-shadow-xl z-0 animate-bounce-low w-[35%]"
+					className="filter drop-shadow-xl z-0 animate-bounce-low lg:w-[35%] w-full"
 				/>
 				<div className="tile text-center -mt-10">
 					<div className="purple-bar-bottom"></div>
