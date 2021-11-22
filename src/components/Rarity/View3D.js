@@ -30,7 +30,7 @@ function Lighting() {
 export default function View3D() {
 	return (
 		<>
-			<Canvas camera={{ position: [0, 0, 20], fov: 70 }}>
+			<Canvas camera={{ position: [0, 20, 20], fov: 70 }}>
 				<Suspense fallback={<Loader />}>
 					<Lighting />
 					<Model />
