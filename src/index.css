@@ -57,6 +57,22 @@ p {
 	&-number {
 		@apply absolute right-5 text-7xl text-white font-bold overflow-hidden w-max flex justify-center align-middle opacity-25;
 	}
+
+	&-nav {
+		@apply relative flex justify-center align-middle flex-col text-sm p-3 z-50 bg-secondary bg-opacity-50 backdrop-filter backdrop-blur-sm rounded-lg shadow-md;
+
+		li {
+			@apply mr-2 last:mr-0;
+
+			a {
+				@apply transition-all duration-200 ease-in-out hover:text-purple-500;
+			}
+		}
+	}
+}
+
+.social {
+	@apply text-white text-2xl mx-2 transition-all duration-200 hover:scale-110 hover:text-purple-600;
 }
 
 ::-webkit-scrollbar {
