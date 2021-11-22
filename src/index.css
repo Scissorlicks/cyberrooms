@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply overflow-x-hidden bg-primary;
+	color: white;
+	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+	@apply text-6xl font-bold uppercase mb-5 tracking-wider;
+}
+
+h2 {
+	@apply text-4xl uppercase font-semibold mb-4 tracking-wider;
+}
+
+h3 {
+	@apply text-2xl uppercase font-medium mb-4 w-max tracking-wider;
+}
+
+h4 {
+	@apply text-lg capitalize font-medium mb-3 w-max tracking-wide;
+}
+
+p {
+	@apply font-light text-sm mb-4 last-of-type:mb-0 leading-normal;
+	max-width: 75ch;
+}
+
+.purple-bar {
+	@apply absolute bg-gradient-to-t to-purple-600  from-purple-900 w-1 h-full top-0 -left-4 rounded-full animate-glow;
+	box-shadow: 0px 0px 35px 1px rgba(163, 71, 255, 0.7);
+
+	&-bottom {
+		@apply absolute bg-gradient-to-r to-purple-600  from-purple-900 w-full h-1 -bottom-4 left-0 rounded-full animate-glow;
+		box-shadow: 0px 0px 35px 1px rgba(163, 71, 255, 0.7);
+	}
+}
+
+.progress-bar {
+	@apply absolute bg-white w-1 h-[115%] rounded-full;
+
+	&-circle {
+		@apply absolute w-6 h-6 bg-white shadow-sm border-primary border-4 rounded-full;
+	}
+}
+
+.done {
+	@apply bg-purple-600;
+}
+
+.tile {
+	@apply relative flex justify-center align-middle flex-col p-6 bg-secondary bg-opacity-50 backdrop-filter backdrop-blur-sm hover:scale-105 transition-all duration-200 ease-in-out rounded-lg shadow-md;
+
+	&-number {
+		@apply absolute right-5 text-7xl text-white font-bold overflow-hidden w-max flex justify-center align-middle opacity-25;
+	}
+}
+
+::-webkit-scrollbar {
+	@apply w-2 bg-purple-900 bg-opacity-50;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply bg-purple-600 rounded-full;
+}
