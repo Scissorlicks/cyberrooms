@@ -17,16 +17,20 @@ h2 {
 }
 
 h3 {
-	@apply text-2xl uppercase font-medium mb-4 w-max tracking-wider;
+	@apply text-2xl uppercase font-medium mb-4 w-max tracking-wider leading-none;
 }
 
 h4 {
-	@apply text-lg capitalize font-medium mb-3 w-max tracking-wide;
+	@apply text-lg capitalize font-medium mb-1 tracking-wide leading-normal;
 }
 
 p {
 	@apply font-light text-sm mb-4 last-of-type:mb-0 leading-normal;
 	max-width: 75ch;
+}
+
+li {
+	@apply mb-5;
 }
 
 .purple-bar {
@@ -40,7 +44,7 @@ p {
 }
 
 .progress-bar {
-	@apply absolute bg-white w-1 h-[115%] rounded-full;
+	@apply absolute bg-white w-1 lg:h-[115%] h-[110%] rounded-full;
 
 	&-circle {
 		@apply absolute w-6 h-6 bg-white shadow-sm border-primary border-4 rounded-full;
@@ -55,18 +59,14 @@ p {
 	@apply relative flex justify-center align-middle flex-col p-6 bg-secondary bg-opacity-50 backdrop-filter backdrop-blur-sm hover:scale-105 transition-all duration-200 ease-in-out rounded-lg shadow-md;
 
 	&-number {
-		@apply absolute right-5 text-7xl text-white font-bold overflow-hidden w-max flex justify-center align-middle opacity-25;
+		@apply absolute right-5 -top-4 text-2xl font-bold overflow-hidden w-max flex justify-center align-middle;
 	}
 
 	&-nav {
 		@apply relative flex justify-center align-middle flex-col text-sm p-3 z-50 bg-secondary bg-opacity-50 backdrop-filter backdrop-blur-sm rounded-lg shadow-md;
 
-		li {
-			@apply mr-2 last:mr-0;
-
-			a {
-				@apply transition-all duration-200 ease-in-out hover:text-purple-500;
-			}
+		a {
+			@apply transition-all duration-200 ease-in-out hover:text-purple-500 mr-4 last:mr-0;
 		}
 	}
 }

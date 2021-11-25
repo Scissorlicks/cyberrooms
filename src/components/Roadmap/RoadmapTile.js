@@ -9,10 +9,10 @@ export default function RoadmapTile({
 }) {
 	return (
 		<>
-			<div className="tile mb-10">
-				<h3>{title}</h3>
-				<p>{children}</p>
-				<div className="absolute -left-4 h-full flex justify-center items-center flex-col">
+			<div className={`tile mb-10 ${done && "line-through"}`}>
+				<h4>{title}</h4>
+				{children}
+				<div className='absolute -left-4 h-full flex justify-center items-center flex-col'>
 					<div
 						className={done === true ? "progress-bar done" : "progress-bar"}
 					></div>
@@ -30,7 +30,17 @@ export default function RoadmapTile({
 						></div>
 					</div>
 				</div>
-				<div className="tile-number">{number}</div>
+				{number !== undefined ? (
+					<div
+						className={`tile-number ${done && "text-purple-600"} ${
+							current === true ? "animate-pulse" : ""
+						}`}
+					>
+						{number} Minted
+					</div>
+				) : (
+					""
+				)}
 			</div>
 		</>
 	);
