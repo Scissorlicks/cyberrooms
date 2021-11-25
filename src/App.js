@@ -39,7 +39,7 @@ function App() {
 					</ContentBlock>
 				</About>
 
-				<CountDown date='November 24, 2021 22:40:00' />
+				<CountDown date='November 24, 2021 22:51:00 GMT-07:00' />
 
 				<Rarity title='Rarity Information' />
 

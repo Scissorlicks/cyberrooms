@@ -41,13 +41,14 @@ export default function CountDown({ date }) {
 				<div className='tile text-center'>
 					{Date.parse(new Date()) >= Date.parse(date) ? (
 						<>
-							<h2 className='mb-8'>Mint is Live</h2>
+							<h2 className='mb-0'>Mint is Live</h2>
+							<h4 className='my-8 tracking-wider'>0/4,444 Minted</h4>
 							<Button text='Mint' />
 						</>
 					) : (
 						<>
 							<h2 className='mb-8'>Time Till Mint</h2>
-							<div className='flex flex-row mb-10'>
+							<div className='flex flex-row mt-8 mb-10'>
 								<TimeBlock time={leading0(days)} type='Days' />
 								<TimeBlock time={leading0(hours)} type='Hours' />
 								<TimeBlock time={leading0(minutes)} type='Minutes' />
@@ -56,6 +57,7 @@ export default function CountDown({ date }) {
 							<ButtonLocked text='Coming Soon...' />
 						</>
 					)}
+					<div className='purple-bar-bottom'></div>
 				</div>
 			</div>
 		</>
