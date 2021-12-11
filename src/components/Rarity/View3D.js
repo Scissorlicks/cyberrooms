@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Bounds } from "@react-three/drei";
+import { OrbitControls } from "@react-three/drei";
 import Loader from "./Loader";
 import Model from "./Model";
 
