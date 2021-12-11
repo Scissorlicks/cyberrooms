@@ -5,7 +5,7 @@ import RarityTile from "./RarityTile";
 function RarityCol({ children }) {
 	return (
 		<>
-			<div className='flex justify-center items-center flex-col col-span-2'>
+			<div className='flex flex-col items-center justify-center col-span-2'>
 				{children}
 			</div>
 		</>
@@ -17,15 +17,15 @@ export default function Rarity(props) {
 		<>
 			<div
 				id='rarity'
-				className='grid lg:grid-cols-4 grid-cols-1 auto-rows-auto lg:h-screen'
+				className='grid grid-cols-1 lg:grid-cols-4 auto-rows-auto lg:h-screen'
 			>
 				<div className='lg:col-span-2 lg:col-start-1 lg:h-1/2 h-[50vh] lg:my-auto mb-28 row-start-1 col-span-1'>
 					<View3D />
 				</div>
 				<RarityCol>
-					<h2 className='text-center mb-5'>{props.title}</h2>
+					<h2 className='mb-5 text-center'>{props.title}</h2>
 					<RarityTile title='Desktop Setup'>
-						<ul className='list-outside ml-4 list-disc'>
+						<ul className='ml-4 list-disc list-outside'>
 							<li>
 								<h4>PC</h4>
 								<p>
@@ -53,7 +53,7 @@ export default function Rarity(props) {
 						<p>Each item discussed will have different color variants.</p>
 					</RarityTile>
 					<RarityTile title='Wall'>
-						<ul className='list-outside ml-4 list-disc'>
+						<ul className='ml-4 list-disc list-outside'>
 							<li>
 								<p>
 									6 different colors. The most rare being purple and the most
@@ -77,7 +77,7 @@ export default function Rarity(props) {
 						<p>Each item discussed will have different color variants.</p>
 					</RarityTile>
 					<RarityTile title='Furniture'>
-						<ul className='list-outside ml-4 list-disc'>
+						<ul className='ml-4 list-disc list-outside'>
 							<li>
 								<h4>Bed</h4>
 								<p>
@@ -117,7 +117,7 @@ export default function Rarity(props) {
 						<p>Each item discussed will have different color variants.</p>
 					</RarityTile>
 					<RarityTile title='Shelf'>
-						<ul className='list-outside ml-4 list-disc'>
+						<ul className='ml-4 list-disc list-outside'>
 							<li>
 								<p>
 									2 different variants. The most rare being the pipe shelf and
