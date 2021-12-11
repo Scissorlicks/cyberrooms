@@ -5,7 +5,6 @@ export default function Footer() {
 	return (
 		<>
 			<div className='flex flex-col items-center justify-center my-8'>
-				{/* <p>Copyright Information</p> */}
 				<div className='flex flex-row mt-4'>
 					<a href='https://discord.gg/CyberRooms' className='social'>
 						<FaDiscord />
@@ -14,6 +13,14 @@ export default function Footer() {
 						<FaTwitter />
 					</a>
 				</div>
+				<a
+					className='mt-4 text-sm text-white transition-all duration-300 opacity-75 hover:text-purple-600 hover:opacity-100'
+					href='https://www.illusivemedia.co/'
+					target='_blank'
+					rel='noreferrer'
+				>
+					Developed by Illusive Media
+				</a>
 			</div>
 		</>
 	);
