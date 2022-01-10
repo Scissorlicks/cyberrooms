@@ -42,7 +42,7 @@ function App() {
 							</p>
 						</ContentBlock>
 					</About>
-					<CountDown date='January 22, 2022 12:00:00 GMT-07:00' />
+					<CountDown date='February 09, 2022 17:00:00 GMT-07:00' />
 					<Rarity title='Rarity Information' />
 				</Fade>
 
