@@ -10,6 +10,9 @@ export default function Team({ children }) {
 			<div className='grid lg:grid-cols-2 gap-10 auto-rows-auto md:w-3/4 w-full'>
 				{children}
 			</div>
+			<p className='mt-16 lg:text-xl text-lg'>
+				More info about us in the Discord
+			</p>
 		</div>
 	);
 }

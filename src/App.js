@@ -12,7 +12,7 @@ import Footer from "./components/Layout/Footer";
 import CountDown from "./components/CountDown";
 import Fade from "react-reveal/Fade";
 
-function App() {
+export default function App() {
 	return (
 		<>
 			<Nav />
@@ -42,7 +42,7 @@ function App() {
 							</p>
 						</ContentBlock>
 					</About>
-					<CountDown date='February 09, 2022 17:00:00 GMT-07:00' />
+					<CountDown date='February 16, 2022 17:00:00 GMT-07:00' />
 					<Rarity title='Rarity Information' />
 				</Fade>
 
@@ -77,7 +77,7 @@ function App() {
 						></RoadmapTile>
 
 						<RoadmapTile
-							title='Total setup / Room revamp to one random holder'
+							title='Total setup / Room revamp to one random holder + start development of VR game'
 							number='100%'
 						>
 							<p>& 5 ETH split to 10 random holders (.5 ETH each)</p>
@@ -111,17 +111,9 @@ function App() {
 
 				<Team>
 					<Fade bottom duration={2000}>
-						<TeamMember
-							name='Gavin'
-							position='Founder'
-							img='img/gav.jpg'
-						></TeamMember>
+						<TeamMember name='Gavin' position='Founder' img='img/gav.jpg' />
 
-						<TeamMember
-							name='Luke'
-							position='Founder'
-							img='img/luke.jpg'
-						></TeamMember>
+						<TeamMember name='Luke' position='Founder' img='img/luke.jpg' />
 					</Fade>
 				</Team>
 
@@ -130,5 +122,3 @@ function App() {
 		</>
 	);
 }
-
-export default App;
