@@ -24,7 +24,7 @@ export default function Footer() {
 
 				<a
 					className='mt-4 text-sm text-white transition-all duration-300 opacity-75 hover:text-purple-600 hover:opacity-100'
-					href='TOS/index.html'
+					href='TOS/TOS.html'
 					target='_blank'
 					rel='noreferrer'
 				>
