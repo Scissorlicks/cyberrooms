@@ -9,6 +9,7 @@ export default function Nav() {
 					<a href='#rarity'>Rarity</a>
 					<a href='#roadmap'>Roadmap</a>
 					<a href='#team'>Team</a>
+					<a href='TOS.html'>Terms of Service</a>
 				</div>
 				<div className='purple-bar-bottom'></div>
 			</div>
