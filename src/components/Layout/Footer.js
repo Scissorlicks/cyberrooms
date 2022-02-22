@@ -26,7 +26,7 @@ export default function Footer() {
 
 			</div>
 
-			<a href='src/TOS/TOS.html'>
+			<a href='TOS.html'>
 				
 				Terms of Service
 
