@@ -22,7 +22,7 @@ export default function Footer() {
 					Developed by Illusive Media
 				</a>
 
-				<a href='Documents/TOS/TOS.html'>
+				<a href=''>
 				
 				Terms of Service
 
