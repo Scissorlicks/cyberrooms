@@ -21,16 +21,17 @@ export default function Footer() {
 				>
 					Developed by Illusive Media
 				</a>
-
-
-
-			</div>
-
-			<a href='TOS.html'>
+				
+				<a className='mt-4 text-sm text-white transition-all duration-300 opacity-75 hover:text-purple-600 hover:opacity-100'
+				href='TOS.html'>
 				
 				Terms of Service
 
 				</a>
+
+
+			</div>
+
 			
 		</>
 	);
