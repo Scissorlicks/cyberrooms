@@ -23,7 +23,7 @@ export default function Footer() {
 				</a>
 				
 				<a className='mt-4 text-sm text-white transition-all duration-300 opacity-75 hover:text-purple-600 hover:opacity-100'
-				href='TOS'>
+				href='#TOS'>
 				
 				Terms of Service
 
