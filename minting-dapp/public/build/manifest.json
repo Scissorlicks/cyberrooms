@@ -1,0 +1,6 @@
+{
+  "build/main.css": "http://localhost:8080/build/main.css",
+  "build/main.js": "http://localhost:8080/build/main.js",
+  "build/images/preview.png": "http://localhost:8080/build/images/preview.png",
+  "build/images/logo.png": "http://localhost:8080/build/images/logo.png"
+}
