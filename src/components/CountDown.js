@@ -42,7 +42,7 @@ export default function CountDown({ date }) {
 					{Date.parse(new Date()) >= Date.parse(date) ? (
 						<>
 							<h2 className='mb-0'>Mint is Live</h2>
-							<h4 className='my-8 tracking-wider'>112/4,444 Minted</h4>
+							<h4 className='my-8 tracking-wider'>123/4,444 Minted</h4>
 							<Button text='Mint' />
 						</>
 					) : (
