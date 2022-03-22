@@ -41,8 +41,8 @@ export default function CountDown({ date }) {
 				<div className='tile text-center'>
 					{Date.parse(new Date()) >= Date.parse(date) ? (
 						<>
-							<h2 className='mb-0'>Mint is Live</h2>
-							<h4 className='my-8 tracking-wider'>146/4,444 Minted</h4>
+							<h2 className='mb-0'>Mint Countdown</h2>
+							<h4 className='my-8 tracking-wider'>Date Coming Soon...</h4>
 							<Button text='Mint' />
 						</>
 					) : (
